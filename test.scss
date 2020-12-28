@@ -1,0 +1,30 @@
+@import "./main.scss";
+
+.choose-contrast-color {
+  .should-be-black {
+    color: choose-contrast-color(#ebebeb);
+  }
+  .should-be-white {
+    color: choose-contrast-color(#111111);
+  }
+}
+
+.resposive {
+  content: "global";
+
+  @include screen("mobile") {
+    content: "mobile";
+  }
+
+  @include screen("tablet") {
+    content: "tablet";
+  }
+
+  @include screen("desktop") {
+    content: "desktop";
+  }
+
+  @include screen("fullhd") {
+    content: "fullhd";
+  }
+}

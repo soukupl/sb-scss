@@ -1,0 +1,16 @@
+{
+  "name": "sb-scss",
+  "version": "0.0.1",
+  "description": "SCSS functions / helpers / mixins",
+  "main": "main.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass test.scss test.css --error-css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.30.0"
+  }
+}

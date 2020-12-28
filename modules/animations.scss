@@ -1,0 +1,26 @@
+@mixin typewriter($cursorColor: #000, $finalWidth: 100%, $steps: 30) {
+  border-right: solid 3px rgba($cursorColor, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+
+  animation: animated-text 1.5s steps($steps, end) 1s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite;
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: $finalWidth;
+    }
+  }
+  @keyframes animated-cursor {
+    from {
+      border-right-color: rgba($cursorColor, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+}
