@@ -1,7 +1,7 @@
 {
   "name": "sb-scss",
-  "version": "0.0.3",
-  "description": "Set of SCSS mixins, that you can simply use in your own SCSS code.",
+  "version": "0.0.4",
+  "description": "Set of SCSS functions and mixins, that you can simply use in your own SCSS code.",
   "main": "main.scss",
   "scripts": {
     "build": "sass test.scss test.css --error-css"

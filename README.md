@@ -1,6 +1,7 @@
-# SCSS mixin library
+# SCSS function and mixin library
 
-This is set of SCSS mixins, that you can simply use in your own SCSS code.
+This is set of SCSS functions and mixins, that you can simply use in your own SCSS code.
+
 > NOTE: This is work in progress, not all mixins are documented and may not work. At this point, use at your won risk!
 
 ## Install
@@ -32,9 +33,17 @@ This will always return 'black' or 'white'.
 }
 ```
 
-## Animations
+## Block with parallax background effect
 
-Typewritter FX
+`parallax($image, $height)`
+
+```scss
+.block-with-parallax {
+  @include parallax("image.jpg", 100vh);
+}
+```
+
+## Typewritter FX
 
 ```scss
 .title {

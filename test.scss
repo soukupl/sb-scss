@@ -9,6 +9,14 @@
   }
 }
 
+.title {
+  @include typewriter(#f00, 300px, 50);
+}
+
+.parallax {
+  @include parallax("https://placehold.it/1200x800", "800px");
+}
+
 .resposive {
   content: "global";
 
@@ -27,8 +35,4 @@
   @include screen("fullhd") {
     content: "fullhd";
   }
-}
-
-.title {
-  @include typewriter(#f00, 300px, 50);
 }

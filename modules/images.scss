@@ -21,3 +21,12 @@
     }
   }
 }
+
+@mixin parallax($image, $height) {
+  background-image: url($image);
+  height: $height;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
