@@ -28,3 +28,7 @@
     content: "fullhd";
   }
 }
+
+.title {
+  @include typewriter(#f00, 300px, 50);
+}
