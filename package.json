@@ -1,6 +1,6 @@
 {
   "name": "sb-scss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SCSS functions / helpers / mixins",
   "main": "main.scss",
   "scripts": {
