@@ -2,7 +2,7 @@
 
 This is set of SCSS functions and mixins, that you can simply use in your own SCSS code.
 
-> NOTE: This is work in progress, not all mixins are documented and may not work. At this point, use at your won risk!
+> NOTE: This is work in progress, not all mixins are documented and may not work. At this point, use at your own risk!
 
 ## Install
 

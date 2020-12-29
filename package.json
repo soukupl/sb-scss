@@ -1,14 +1,23 @@
 {
   "name": "sb-scss",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Set of SCSS functions and mixins, that you can simply use in your own SCSS code.",
+  "keywords": [
+    "scss",
+    "scss mixin",
+    "scss function"
+  ],
+  "author": "Ladislav Soukup <ladislav.soukup@gmail.com>",
+  "homepage": "https://github.com/soukupl/sb-scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soukupl/sb-scss"
+  },
+  "license": "ISC",
   "main": "main.scss",
   "scripts": {
     "build": "sass test.scss test.css --error-css"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "sass": "^1.30.0"
   }
