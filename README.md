@@ -1,5 +1,7 @@
 # SCSS function and mixin library
 
+![](https://nodei.co/npm/sb-scss.png?downloads=true&downloadRank=true&stars=true)
+
 This is set of SCSS functions and mixins, that you can simply use in your own SCSS code.
 
 > NOTE: This is work in progress, not all mixins are documented and may not work. At this point, use at your own risk!

@@ -9,6 +9,18 @@
   }
 }
 
+.box1 {
+  @include shadow-basic(1, #ff0000);
+}
+
+.box2 {
+  @include shadow-basic(2, #ff0000);
+}
+
+.box3 {
+  @include shadow-basic(3, #ff0000);
+}
+
 .title {
   @include typewriter(#f00, 300px, 50);
 }
