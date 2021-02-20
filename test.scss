@@ -9,6 +9,10 @@
   }
 }
 
+.spin {
+  @include spin(5s);
+}
+
 .box1 {
   @include shadow-basic(1, #ff0000);
 }

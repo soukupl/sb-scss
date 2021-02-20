@@ -24,3 +24,13 @@
     }
   }
 }
+
+@mixin spin($time: 4s) {
+  animation: spin $time linear infinite;
+
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
