@@ -1,6 +1,6 @@
 {
   "name": "sb-scss",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Set of SCSS functions and mixins, that you can simply use in your own SCSS code.",
   "keywords": [
     "scss",
@@ -19,6 +19,6 @@
     "build": "sass test.scss test.css --error-css"
   },
   "devDependencies": {
-    "sass": "^1.32.8"
+    "sass": "^1.43.4"
   }
 }
